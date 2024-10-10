@@ -12,6 +12,6 @@ Contoh Kasus Penggunaan:
 Kapan Menggunakan Singleton?
 Meskipun Singleton memiliki kegunaan, ada beberapa hal yang perlu dipertimbangkan sebelum menggunakannya:
 
-*Testabilitas: Singleton dapat membuat kode sulit untuk diuji karena ketergantungan global.
-*Ketergantungan: Penggunaan Singleton yang berlebihan dapat membuat kode menjadi sangat terkait satu sama lain.
-*Multithreading: Dalam lingkungan multithreading, Singleton mungkin memerlukan mekanisme locking untuk menghindari masalah konkurensi.
+* Testabilitas: Singleton dapat membuat kode sulit untuk diuji karena ketergantungan global.
+* Ketergantungan: Penggunaan Singleton yang berlebihan dapat membuat kode menjadi sangat terkait satu sama lain.
+* Multithreading: Dalam lingkungan multithreading, Singleton mungkin memerlukan mekanisme locking untuk menghindari masalah konkurensi.
