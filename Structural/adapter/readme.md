@@ -24,5 +24,6 @@ class Point:
     def __init__(self, x, y):
         self.x = x
         self.y = y
+```
 
 Untuk membuat kedua kelas ini dapat bekerja sama, kita akan membuat sebuah adapter:
