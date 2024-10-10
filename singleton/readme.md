@@ -1,4 +1,4 @@
-#Singleton
+# Singleton
 
 Apa itu Singleton?
 Singleton adalah pola desain creational yang memastikan hanya ada satu instance (objek) dari suatu kelas selama program berjalan. Ini berguna ketika kita hanya membutuhkan satu objek tunggal untuk mengelola sumber daya atau konfigurasi tertentu.
