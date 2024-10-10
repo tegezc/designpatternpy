@@ -5,9 +5,9 @@ Singleton adalah pola desain creational yang memastikan hanya ada satu instance 
 
 Contoh Kasus Penggunaan:
 
-*Koneksi database: Hanya perlu ada satu koneksi database untuk seluruh aplikasi.
-*Logger: Satu objek logger untuk mencatat semua aktivitas aplikasi.
-*Konfigurasi: Satu objek konfigurasi untuk menyimpan semua pengaturan aplikasi.
+* Koneksi database: Hanya perlu ada satu koneksi database untuk seluruh aplikasi.
+* Logger: Satu objek logger untuk mencatat semua aktivitas aplikasi.
+* Konfigurasi: Satu objek konfigurasi untuk menyimpan semua pengaturan aplikasi.
 
 Kapan Menggunakan Singleton?
 Meskipun Singleton memiliki kegunaan, ada beberapa hal yang perlu dipertimbangkan sebelum menggunakannya:
