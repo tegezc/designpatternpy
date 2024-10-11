@@ -1,15 +1,15 @@
 # Facade Pattern
 
-Facade Pattern adalah sebuah pattern struktural yang menyediakan antarmuka yang terpadu dan sederhana untuk sebuah sistem yang kompleks. Bayangkan Anda memiliki sebuah sistem yang terdiri dari banyak kelas dan metode yang saling berhubungan. Dengan menggunakan Fasad, Anda bisa menyembunyikan kompleksitas tersebut di balik sebuah kelas tunggal, sehingga klien (kode yang menggunakan sistem) hanya perlu berinteraksi dengan kelas Fasad ini.
+Facade Pattern adalah sebuah pattern struktural yang menyediakan antarmuka yang terpadu dan sederhana untuk sebuah sistem yang kompleks. Bayangkan Anda memiliki sebuah sistem yang terdiri dari banyak kelas dan metode yang saling berhubungan. Dengan menggunakan Facade, Anda bisa menyembunyikan kompleksitas tersebut di balik sebuah kelas tunggal, sehingga klien (kode yang menggunakan sistem) hanya perlu berinteraksi dengan kelas Facade ini.
 
-## Mengapa kita perlu Fasad?
+## Mengapa kita perlu Facade?
 
 * Sederhana: Menyembunyikan kompleksitas sistem yang besar.
 * Mudah digunakan: Menyediakan antarmuka yang mudah dipahami.
 * Fleksibel: Memungkinkan perubahan pada sistem internal tanpa mempengaruhi klien.
 * Tingkat abstraksi yang lebih tinggi: Memungkinkan klien untuk fokus pada fungsionalitas utama tanpa harus memahami detail implementasi.
 
-## Contoh Penerapan Fasad dalam Python
+## Contoh Penerapan Facade dalam Python
 Misalkan kita memiliki sebuah sistem pemutar musik sederhana yang terdiri dari beberapa kelas:
 
 * Player: Kelas utama yang mengontrol pemutaran musik.
@@ -46,7 +46,7 @@ class Player:
 
 Jika klien ingin memutar CD, mereka harus memanggil beberapa metode: menghidupkan amplifier, lalu memutar CD player. Ini bisa menjadi rumit jika sistem semakin kompleks.
 
-## Dengan menggunakan Fasad:
+## Dengan menggunakan Facade:
 ``` python
 class HomeTheaterFacade:
     def __init__(self):
@@ -63,11 +63,11 @@ home_theater.watch_movie()
 ```
 ## Penjelasan:
 
-* Kelas HomeTheaterFacade bertindak sebagai fasad untuk sistem pemutar musik.
+* Kelas HomeTheaterFacade bertindak sebagai Facade untuk sistem pemutar musik.
 * Klien hanya perlu memanggil metode watch_movie() untuk menjalankan seluruh rangkaian tindakan.
 * Detail implementasi seperti menghidupkan amplifier dan memutar CD player disembunyikan di dalam metode watch_movie().
 
-## Kapan Menggunakan Pola Fasad?
+## Kapan Menggunakan Pola Facade?
 * Sistem yang kompleks: Ketika Anda memiliki sistem yang terdiri dari banyak kelas dan metode yang saling terkait.
 * Abstraksi yang lebih tinggi: Ketika Anda ingin menyembunyikan kompleksitas implementasi dari klien.
 * Multiple subsystems: Ketika Anda memiliki beberapa subsistem yang berbeda yang perlu dikoordinasikan.
