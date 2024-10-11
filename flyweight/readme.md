@@ -63,16 +63,6 @@ for i in range(100):
 * Menghemat memori: Hanya ada satu objek TreeType untuk setiap jenis pohon, meskipun kita membuat banyak objek Tree.
 * Meningkatkan kinerja: Tidak perlu membuat objek TreeType yang sama berulang kali.
 
-## Penting:
-
-* State intrinsik (dalam contoh ini, jenis pohon) harus benar-benar tidak berubah setelah objek dibuat.
-* State ekstrinsik (dalam contoh ini, posisi) dapat berubah dan tidak memengaruhi sharing objek.
-
-## Contoh Lain:
-
-* Karakter dalam game: Banyak karakter dengan tampilan yang sama tetapi posisi dan animasi yang berbeda.
-* Button dalam aplikasi GUI: Banyak button dengan teks dan tampilan yang sama tetapi fungsi yang berbeda.
-
 
 ## Kesimpulan
 Flyweight Pattern adalah alat yang sangat berguna untuk mengoptimalkan penggunaan memori dan meningkatkan kinerja aplikasi, terutama ketika kita berurusan dengan sejumlah besar objek yang hampir identik. Dengan memahami konsep ini, Anda dapat menerapkannya dalam berbagai situasi untuk membuat aplikasi yang lebih efisien.
