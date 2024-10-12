@@ -67,14 +67,14 @@ cappuccino.make_coffee()
 ## Penjelasan:
 
 * Kelas Coffee:
-- Metode make_coffee() adalah metode template yang mendefinisikan urutan langkah membuat kopi.
-- Metode add_suger() dan add_milk() diimplementasikan sebagai kosong, karena bersifat opsional.
+    - Metode make_coffee() adalah metode template yang mendefinisikan urutan langkah membuat kopi.
+    - Metode add_suger() dan add_milk() diimplementasikan sebagai kosong, karena bersifat opsional.
 * Kelas BlackCoffee:
-- Tidak mengoverride metode apa pun, sehingga tidak ada penambahan gula atau susu.
+    - Tidak mengoverride metode apa pun, sehingga tidak ada penambahan gula atau susu.
 * Kelas Latte:
-- Mengoverride metode add_milk() untuk menambahkan susu.
+    - Mengoverride metode add_milk() untuk menambahkan susu.
 *Kelas Cappuccino:
-- Menurun dari Latte dan mengoverride add_milk() lagi untuk menambahkan busa susu.
+    - Menurun dari Latte dan mengoverride add_milk() lagi untuk menambahkan busa susu.
 
 ## Keuntungan Menggunakan Template Method:
 
