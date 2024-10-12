@@ -71,4 +71,8 @@ def repeat(num_times):
 def greet(name):
     print(f"Hello, {name}!")
 ```
+## Kegunaan Lain Decorator
 
+- Validasi input: Memastikan argumen yang diberikan ke fungsi sesuai dengan tipe data atau batasan tertentu.
+- Caching: Menyimpan hasil perhitungan fungsi untuk menghindari perhitungan ulang yang tidak perlu.
+- Authorization: Memastikan pengguna memiliki izin yang cukup untuk menjalankan fungsi.
